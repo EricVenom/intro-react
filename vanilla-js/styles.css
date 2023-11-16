@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -43,10 +44,6 @@ input {
     border-right: 1px solid rgb(0, 0, 0, .3);
 }
 
-.left_side h1 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 fieldset {
     border: none;
     display: flex;
@@ -64,4 +61,8 @@ fieldset div {
 fieldset input[type="checkbox"] {
     height: 20px;
     width: 32px;
+}
+
+label {
+    font-size: 20px;
 }

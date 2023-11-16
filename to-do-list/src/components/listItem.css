@@ -1,0 +1,8 @@
+input[type="checkbox"] {
+    height: 20px;
+    width: 32px;
+}
+
+label {
+    font-size: 20px;
+}
